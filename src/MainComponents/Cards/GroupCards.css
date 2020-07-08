@@ -1,0 +1,16 @@
+.mcards {
+  display: flex;
+}
+.mcard {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 5px 10px rgba(rgb(255, 245, 245));
+  transition: 0.4s;
+}
+.mcard:not(:first-child) {
+  margin-left: -13rem;
+}
+.mcard:not(:last-child):hover,
+.mcard:not(:last-child):focus-within {
+  transform: translateX(-5rem) translateY(-3rem);
+}
