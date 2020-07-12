@@ -1,0 +1,135 @@
+.bgstar{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    width: 56.14%;
+    height: 100%;
+    fill: url(#orange-to-pink);
+    pointer-events: none;
+    -webkit-filter: saturate(125%);
+    filter: saturate(125%);
+    margin-top: 378px;
+}
+
+#mixupCard1{
+    height: 300px;
+    width:224px;
+    background: #100e17;
+    border-top:  4px solid #e52e71;
+    border-left:  4px solid #e52e71;
+    border-right: 1px solid #201c29;
+    border-bottom: 1px solid #201c29;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: none;
+
+}
+#mixupCard2{
+    background: #100e17;
+    box-shadow: 0 0 3rem #000;
+    border-bottom: 1px solid #201c29;
+    z-index: 1;
+    border-radius: 0;
+    height: 300px;
+    width:224px;
+}
+
+
+#mixupCard3{
+    background: #100e17;
+    border-right:  4px solid #e52e71;
+    border-bottom:  4px solid #e52e71;
+    border-radius: 0;
+    border-bottom-right-radius: 1rem;
+    box-shadow: none;
+    display: flex;
+    height:300px;
+    margin-left: 93px;
+}
+
+#mixupCard4{
+    background: #100e17;
+    border-left:  4px solid #e52e71;
+    border-radius: 0;
+    box-shadow: none;
+    width:230px;
+
+}
+
+#mixupCard5{
+    background: #100e17;
+    border-left:  4px solid #e52e71;
+    border-top:  4px solid #e52e71;
+    border-radius: 0;
+    border-top-left-radius: 1rem;
+    box-shadow: none;
+    display: flex;
+    height:280px;
+    margin-left: -50px;
+}
+
+#mixupCard6{
+    border-bottom: 1px solid #201c29;
+    background: #100e17;
+    border-radius: 0;
+    height:276px;
+    width:230px;
+    display: flex;
+    margin-top: 4px;
+    margin-left: -80px;
+    box-shadow: 0 0 3rem #000;
+}
+#mixupCard7{
+    background: #100e17;
+    border-left:  4px solid #e52e71;
+    border-right:  4px solid #e52e71;
+    border-bottom:  4px solid #e52e71;
+    border-radius: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: none;
+    display: flex;
+    height:150%;
+    margin-left: -18px;
+}
+#mixupCard8{
+    background: #100e17;
+    border-left:  1px solid #201c29;
+    border-right:  1px solid #201c29;
+    border-bottom:  1px solid #201c29;
+    border-radius: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: none;
+    display: flex;
+    height:150%;
+    margin-left: 149px;
+}
+
+
+
+
+.colorCard{
+    background: linear-gradient(225.71deg,#110e17 -5.46%,#da1b60 55.6%,#ff8a00 103.75%);
+    border-top-right-radius: 1rem;
+    border-top:4px solid #e52e71;
+    border-right:4px solid #e52e71;
+}
+
+.colorCard2{
+    background: linear-gradient(134.47deg,#110e17,#da1b60 127.34%,#ff8a00 195.33%);
+    height:280px;
+    width:200px;
+    display: flex;
+    margin-left: 120px;
+}
+
+.hrColor{
+    border: 0;
+    height: 5px;
+    margin: 4%;
+    background-image: linear-gradient(90deg,#ff8a00,#e52e71);
+    border-radius: 5px;
+}
