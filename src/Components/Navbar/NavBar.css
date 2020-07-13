@@ -1,0 +1,91 @@
+.center{
+    display: flex;
+    align-items: center;
+}
+.borderSearch{
+    border-radius: 28px;
+    display: flex;
+    border: 2px solid #312d3c;
+}
+.searchInput{
+    background: #201c29;
+    border: 0;
+    min-width: 0;
+    flex: 1;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+}
+
+.borderSearch:focus-within{
+    border:2px solid white;
+} 
+.linkHover{
+    background: #100e17;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px solid #201c29;
+    padding:1.1rem 1.3rem;
+}
+
+.linkHover:hover{
+    background-color: #312d3c;
+}
+
+
+.linkHover2{
+    background: #100e17;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px solid #201c29;
+    padding:.1rem 1rem;
+}
+
+.linkHover2:hover{
+    background-color: #312d3c;
+}
+
+.linkText{
+    display:flex;
+    margin-top:4px;
+    color:white;
+}
+
+
+#inputBar{
+    width:280px;
+    background: #201c29;
+    border-top-left-radius:27px;
+    border-bottom-left-radius:27px;
+}
+
+#inputBar:focus-within{
+    border:1px solid #312d3c;
+    box-shadow: none;
+}
+
+/* #searchButton{
+    font-size:20px;
+    display:flex;
+    margin-top:1px;
+    align-items:center;
+    text-align:center;
+    color:white;
+    width:80px;
+    height:95%;
+    background:linear-gradient(90deg,#ff8a00,#e52e71);
+    padding:20px;
+    border-top-right-radius:27px;
+    border-bottom-right-radius:27px;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+} */
