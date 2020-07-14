@@ -70,3 +70,58 @@
     box-shadow: none;
     font-size: medium;
 }
+
+#sponserTextHover{
+    color:white;
+}
+#sponserTextHover:hover{
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#sponserTextHover:after{
+    content: "";
+    height: 2px;
+    width: 16%;
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    position: absolute;
+    top:148px;
+    right:251px ;
+}
+
+
+#sponserTextHover2{
+    color:white;
+}
+#sponserTextHover2:hover{
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#sponserTextHover2:after{
+    content: "";
+    height: 2px;
+    width: 16%;
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    position: absolute;
+    top:148px;
+    right:110px ;
+}
+
+#sponserTextHover3{
+    color:white;
+}
+#sponserTextHover3:hover{
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#sponserTextHover3:after{
+    content: "";
+    height: 2px;
+    width: 16%;
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    position: absolute;
+    top:152px;
+    right:251px ;
+}
