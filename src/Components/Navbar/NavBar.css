@@ -64,6 +64,9 @@
 #inputBar{
     width:280px;
     background: #201c29;
+    color:white;
+    font-weight: 800;
+    font-size: 15px;
     border-top-left-radius:27px;
     border-bottom-left-radius:27px;
 }
