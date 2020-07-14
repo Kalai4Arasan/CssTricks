@@ -83,7 +83,7 @@ class GroupCards extends Component {
         return ( 
             <div style={{marginTop:'10%',marginLeft:'4%',marginRight:'4%'}} class="ui grid">
                 <div class="four wide column" style={{marginTop:'2%'}}>
-                    <div class="ui card" style={{border:'black',boxShadow:'none',background:'linear-gradient(0deg,#ff8a00,#e52e71)',borderRadius:'20px',height:'94%',width:'120%'}}>
+                    <div class="ui card" style={{border:'black',padding:'10%',boxShadow:'none',background:'linear-gradient(0deg,#ff8a00,#e52e71)',borderRadius:'20px',height:'94%',width:'120%'}}>
                         <div class="content" style={{marginTop:"80%"}}>
                             <h1 >Popular this month</h1>
                         </div>
